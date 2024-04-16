@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Encabezado{
+    border-radius: 200%;
+    border-color: black;
+    width: 150px;
+}
+body{
+    background-color:cadetblue
+}
+.titulo{
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+    font-family: "Cousine", monospace;
+    text-decoration: none
+
+}
+main{
+    color: aliceblue;
+}
+.imageneninicio{
+    width: 500px;
+    border-radius: 100%;
+}
+.ubicacion{
+    width: 300px;
+    border-radius: 10%;
+}
+.direccion{
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 50px;
+}
+.lineafooter{
+    color: blueviolet;
+}
+.logoig{
+    width: 50px
+}
+.logows{
+    border-radius: 200%;
+    width: 50px
+}
+nav{
+    font-size: small;
+}
+.menu{
+    list-style-type: none;
+    color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.menu li a:hover{
+    background-color: darkgray;
+    border-radius: 50%;
+}
+.imagenesinicio{
+    margin: 20px;
+    align-content: center;
+    margin-left: 100px;
+}
+footer{
+    text-align: center;
+}
+.aboutus p{
+    margin-bottom: 50px;
+    display: inline-block
+    
+}
+.budapasto{
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+}
+.box1{
+    width: 250px;
+    height: 250px;
+    border-style: double;
+    border-width: 10px;
+    border-color: darkgray;
+    text-align: center;
+    overflow: auto;
+    margin: 50px;
+    padding: 50px;
+    color: black;
+}
+.sahume{
+    width: 400px;
+}
+.cajadeproductos{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+main{
+    text-align: center;
+}
+.cajadecombos{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+    margin: 20px;
+}
+.frasefooter{
+    font-weight: bolder;
+    margin: 10px;
+}
+.formulario{
+    font-weight: bold;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 0.5rem;
+    padding: 10px;
+    margin-left: 400px;
+    text-align: justify;
+}
+.enviar{
+    text-align: center;
+}
+.sexo{
+    text-align: center;
+}
+.edad1{
+    margin-right: 18px;
+}
