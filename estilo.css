@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.Encabezado{
+.logo{
     border-radius: 200%;
     border-color: black;
     width: 150px;
@@ -11,20 +11,9 @@
 body{
     background-color:cadetblue
 }
-.titulo{
-    font-size: 40px;
-    color: blueviolet;
-    text-align: center;
-    font-family: "Cousine", monospace;
-    text-decoration: none
-
-}
-main{
-    color: aliceblue;
-}
-.imageneninicio{
+.imagen{
+    border-radius: 200px;
     width: 500px;
-    border-radius: 100%;
 }
 .ubicacion{
     width: 300px;
@@ -46,21 +35,12 @@ main{
     border-radius: 200%;
     width: 50px
 }
-nav{
-    font-size: small;
-}
 .menu{
     list-style-type: none;
     color: blueviolet;
     margin: 10px;
     text-align: center;
     
-}
-.menu li{
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    font-size: 30px;
 }
 .menu li a{
     text-decoration: none;
@@ -71,13 +51,9 @@ nav{
     background-color: darkgray;
     border-radius: 50%;
 }
-.imagenesinicio{
-    margin: 20px;
-    align-content: center;
-    margin-left: 100px;
-}
 footer{
     text-align: center;
+    margin-top: 100px;
 }
 .aboutus p{
     margin-bottom: 50px;
@@ -85,7 +61,7 @@ footer{
     
 }
 .budapasto{
-    width: 400px;
+    width: 300px;
     margin-left: 50px;
     text-align: center;
 }
@@ -102,7 +78,7 @@ footer{
     color: black;
 }
 .sahume{
-    width: 400px;
+    width: 300px;
 }
 .cajadeproductos{
     width: 100px;
@@ -147,3 +123,81 @@ main{
 .edad1{
     margin-right: 18px;
 }
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    min-width: 300px;
+}
+.titulo{
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    border-style: double;
+    font-size: 4rem;
+}
+.dropdown-menu{
+    background-color: cadetblue;
+}
+.logo{
+    margin-right: 150px;
+}
+.container {  
+    width:100vw;
+    height: 100vw;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.3fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  }
+  
+  .header { grid-area: "header"; }
+  
+  .main { grid-area: "main";}
+  
+  .footer { grid-area: "footer"; }
+ 
+  @media screen and (max-width: 768px) {
+    .container { 
+        grid-template-rows: 0.5fr 1fr 1fr 0.3fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "main"
+        "footer";
+   }
+    .titulo{
+        font-size: 2rem;
+    }
+    .budapasto{
+        border-radius: 100%;
+        width: 150px;
+    }
+    .sahume{
+        border-radius: 100%;
+        width: 150px;
+    }
+} 
+
+   @media screen and (max-width: 480px){
+    .titulo{
+        font-size: 1rem;
+        justify-content: center
+    }
+    .imagen{
+        border-radius: 200px;
+        width: 250px;
+    }
+
+    
+   }    
+   
+   @media screen and (max-width:) {
+    
+   }
