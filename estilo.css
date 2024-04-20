@@ -6,7 +6,8 @@
 .logo{
     border-radius: 200%;
     border-color: black;
-    width: 150px;
+    width: 100px;
+    margin-right: 150px;
 }
 body{
     background-color:cadetblue
@@ -140,9 +141,6 @@ main{
 .dropdown-menu{
     background-color: cadetblue;
 }
-.logo{
-    margin-right: 150px;
-}
 .container {  
     width:100vw;
     height: 100vw;
@@ -194,10 +192,4 @@ main{
         border-radius: 200px;
         width: 250px;
     }
-
-    
-   }    
-   
-   @media screen and (max-width:) {
-    
    }
