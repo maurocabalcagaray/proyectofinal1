@@ -110,6 +110,25 @@ main .cards .fila {
 main .cards .card {
   margin-bottom: 15px;
 }
+@media screen and (max-width: 480px) {
+  main .titulo {
+    font-size: 0, 5rem;
+    justify-content: left;
+  }
+  main .imagen {
+    border-radius: 200px;
+    width: 250px;
+  }
+  main .formulario {
+    font-weight: bold;
+    text-align: center;
+    border-style: double;
+    border-color: #fd01dc;
+    border-width: 0.5rem;
+    padding: 10px;
+    text-align: justify;
+  }
+}
 
 footer {
   text-align: center;
@@ -125,6 +144,25 @@ footer .logoig {
 footer .logows {
   border-radius: 200%;
   width: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .titulo {
+    font-size: 10px;
+  }
+  .imagen {
+    border-radius: 200px;
+    width: 250px;
+  }
+  .formulario {
+    display: flexbox;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border-style: double;
+    border-color: #fd01dc;
+    border-width: 0.5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
