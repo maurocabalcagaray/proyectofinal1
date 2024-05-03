@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    border-radius: 200%;
+    border-color: black;
+    width: 100px;
+    margin-right: 150px;
+}
+body{
+    background-color:cadetblue
+}
+.imagen{
+    border-radius: 200px;
+    width: 500px;
+}
+.ubicacion{
+    width: 300px;
+    border-radius: 10%;
+}
+.direccion{
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 50px;
+}
+.lineafooter{
+    color: blueviolet;
+}
+.logoig{
+    width: 50px
+}
+.logows{
+    border-radius: 200%;
+    width: 50px
+}
+.menu{
+    list-style-type: none;
+    color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.menu li a:hover{
+    background-color: darkgray;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+.aboutus p{
+    margin-bottom: 50px;
+    display: inline-block
+    
+}
+.budapasto{
+    width: 300px;
+    margin-left: 50px;
+    text-align: center;
+}
+.box1{
+    width: 250px;
+    height: 250px;
+    border-style: double;
+    border-width: 10px;
+    border-color: darkgray;
+    text-align: center;
+    overflow: auto;
+    margin: 50px;
+    padding: 50px;
+    color: black;
+}
+.sahume{
+    width: 300px;
+}
+.cajadeproductos{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+main{
+    text-align: center;
+}
+.cajadecombos{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+    margin: 20px;
+}
+.frasefooter{
+    font-weight: bolder;
+    margin: 10px;
+}
+.formulario{
+    font-weight: bold;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-style: double;
+    border-color: darkgray;
+    border-width: 0.5rem;
+    padding: 10px;
+    margin-left: 400px;
+    text-align: justify;
+}
+.enviar{
+    text-align: center;
+}
+.sexo{
+    text-align: center;
+}
+.edad1{
+    margin-right: 18px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    min-width: 300px;
+}
+.titulo{
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    border-style: double;
+    font-size: 4rem;
+}
+.dropdown-menu{
+    background-color: cadetblue;
+}
+.container {  
+    width:100vw;
+    height: 100vw;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.3fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  }
+  
+  .header { grid-area: "header"; }
+  
+  .main { grid-area: "main";}
+  
+  .footer { grid-area: "footer"; }
+ 
+  @media screen and (max-width: 768px) {
+    .container { 
+        grid-template-rows: 0.5fr 1fr 1fr 0.3fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "main"
+        "footer";
+   }
+    .titulo{
+        font-size: 2rem;
+    }
+    .budapasto{
+        border-radius: 100%;
+        width: 150px;
+    }
+    .sahume{
+        border-radius: 100%;
+        width: 150px;
+    }
+} 
+
+   @media screen and (max-width: 480px){
+    .titulo{
+        font-size: 1rem;
+        justify-content: center
+    }
+    .imagen{
+        border-radius: 200px;
+        width: 250px;
+    }
+   }
+
+/*# sourceMappingURL=styles.css.map */

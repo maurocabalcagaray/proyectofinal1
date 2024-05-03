@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7d5f2;
+}
+body .container {
+  width: 100vw;
+  height: 100vw;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+  min-width: 300px;
+}
+header .logo {
+  border-radius: 200%;
+  border-color: black;
+  width: 100px;
+  margin-right: 150px;
+}
+header .titulo {
+  text-align: center;
+  text-decoration: none;
+  color: #fd01dc;
+  font-size: 4rem;
+}
+
+main {
+  text-align: center;
+  grid-area: "main";
+}
+main .nav-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .dropdown-menu {
+  background-color: cadetblue;
+}
+main .imagen {
+  border-radius: 200px;
+  width: 500px;
+}
+main .formulario {
+  font-weight: bold;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  border-style: double;
+  border-color: darkgray;
+  border-width: 0.5rem;
+  padding: 10px;
+  margin-left: 400px;
+  text-align: justify;
+}
+main .edad1 {
+  margin-right: 18px;
+}
+main .enviar {
+  text-align: center;
+}
+main .sexo {
+  text-align: center;
+}
+main .budapasto {
+  width: 250px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 200px;
+}
+main .box1 {
+  width: 500px;
+  height: 250px;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: darkgray;
+  overflow: auto;
+  margin: 50px;
+  padding: 10px;
+  color: black;
+}
+main .sahume {
+  width: 250px;
+  border-radius: 200px;
+}
+main .aboutus p {
+  margin-bottom: 50px;
+  display: inline-flex;
+}
+main .cards {
+  display: flex;
+  flex-direction: column;
+}
+main .cards .fila {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .cards .card {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+footer .logoig {
+  width: 50px;
+}
+footer .logows {
+  border-radius: 200%;
+  width: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */

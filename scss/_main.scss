@@ -1,0 +1,75 @@
+@import "./var";
+main{
+    text-align: center;
+    grid-area: "main";
+    .nav-item{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .dropdown-menu{
+        background-color: cadetblue;
+    }
+    .imagen{
+        border-radius: 200px;
+        width: 500px;
+    }
+
+    .formulario{
+        font-weight: bold;
+        width: 500px;
+        height: 250px;
+        text-align: center;
+        border-style: double;
+        border-color: darkgray;
+        border-width: 0.5rem;
+        padding: 10px;
+        margin-left: 400px;
+        text-align: justify;
+    }
+    .edad1{
+        margin-right: 18px;
+    }
+    .enviar{
+        text-align: center;
+    }
+    .sexo{
+        text-align: center;
+    }
+    .budapasto{
+        width: 250px;
+        margin-left: 10px;
+        text-align: center;
+        border-radius: 200px;
+    }
+    .box1{
+        width: 500px;
+        height: 250px;
+        border-style:dotted;
+        border-width: 10px;
+        border-color: darkgray;
+        overflow: auto;
+        margin: 50px;
+        padding: 10px;
+        color: black;
+    }
+    .sahume{
+        width: 250px;
+        border-radius: 200px;
+    }
+    .aboutus p{
+        margin-bottom: 50px;
+        display:inline-flex
+        
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        .fila{
+            display: flex;
+            justify-content: space-evenly
+        }
+        .card{
+            margin-bottom: 15px;
+        }
+    }
+}

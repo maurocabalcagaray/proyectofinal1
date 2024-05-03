@@ -1,0 +1,16 @@
+@import "./var";
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+    .logoig{
+        width: 50px;
+    }
+    .logows{
+        border-radius: 200%;
+        width: 50px;
+    }
+}

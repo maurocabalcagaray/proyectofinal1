@@ -1,0 +1,20 @@
+@import "./var";
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    min-width: 300px;
+    .logo{
+        border-radius: 200%;
+        border-color: black;
+        width: 100px;
+        margin-right: 150px;
+    }
+    .titulo{
+        text-align: center;
+        text-decoration: none;
+        color: $color-oscuro;
+        font-size: 4rem;
+    }
+}
