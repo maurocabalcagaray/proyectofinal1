@@ -2,4 +2,14 @@
 @import "./header";
 @import "./main";
 @import "./footer";
-@import "./var"
+@import "./var";
+@media screen and (max-width: 480px){
+    .titulo{
+        font-size: 1rem;
+        justify-content: center
+    }
+    .imagen{
+        border-radius: 200px;
+        width: 250px;
+    }
+   }
