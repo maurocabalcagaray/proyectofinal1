@@ -17,7 +17,7 @@ main{
     .formulario{
         font-weight: bold;
         width: 500px;
-        height: 250px;
+        height: 275px;
         text-align: center;
         border-style: double;
         border-color: darkgray;
@@ -26,11 +26,21 @@ main{
         margin-left: 400px;
         text-align: justify;
     }
+    .edad{
+        margin-top: 5%;
+    }
     .edad1{
-        margin-right: 18px;
+        margin-right: 5%;
     }
     .enviar{
+        display: flex;
         text-align: center;
+        margin: 5%;
+        justify-content: space-around;
+    }
+    .consulta{
+        display: flex;
+        justify-content: center;
     }
     .sexo{
         text-align: center;

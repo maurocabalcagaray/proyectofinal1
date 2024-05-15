@@ -56,7 +56,7 @@ main .imagen {
 main .formulario {
   font-weight: bold;
   width: 500px;
-  height: 250px;
+  height: 275px;
   text-align: center;
   border-style: double;
   border-color: darkgray;
@@ -65,11 +65,21 @@ main .formulario {
   margin-left: 400px;
   text-align: justify;
 }
+main .edad {
+  margin-top: 5%;
+}
 main .edad1 {
-  margin-right: 18px;
+  margin-right: 5%;
 }
 main .enviar {
+  display: flex;
   text-align: center;
+  margin: 5%;
+  justify-content: space-around;
+}
+main .consulta {
+  display: flex;
+  justify-content: center;
 }
 main .sexo {
   text-align: center;
@@ -146,22 +156,38 @@ footer .logows {
   width: 50px;
 }
 
-@media only screen and (max-width: 480px) {
-  .titulo {
-    font-size: 10px;
+@media screen and (max-width: 768px) {
+  .body {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
-  .imagen {
-    border-radius: 200px;
-    width: 250px;
-  }
-  .formulario {
+  .header {
     display: flexbox;
-    width: 200px;
-    height: 250px;
+  }
+  .header .titulo {
+    justify-content: center;
+    text-decoration: none;
+    color: #fd01dc;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .body {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .header {
+    display: flexbox;
+  }
+  .header .titulo {
+    justify-content: center;
+    text-decoration: none;
+    color: #fd01dc;
+    font-size: 1rem;
     text-align: center;
-    border-style: double;
-    border-color: #fd01dc;
-    border-width: 0.5rem;
+  }
+  .main .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

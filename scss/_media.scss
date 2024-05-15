@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .body{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .header{
+        display:flexbox;
+        .titulo{
+            justify-content: center;
+            text-decoration: none;
+            color: $color-oscuro;
+            font-size: 2rem;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .body{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .header{
+        display:flexbox;
+        .titulo{
+            justify-content: center;
+            text-decoration: none;
+            color: $color-oscuro;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+    .main{
+        .formulario{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

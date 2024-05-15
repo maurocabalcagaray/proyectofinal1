@@ -3,22 +3,4 @@
 @import "./main";
 @import "./footer";
 @import "./var";
-@media only screen and (max-width: 480px){
-    .titulo{
-        font-size: 10px;
-    }
-    .imagen{
-        border-radius: 200px;
-        width: 250px;
-    }
-    .formulario{
-        display:flexbox;
-        width: 200px;
-        height: 250px;
-        text-align: center;
-        border-style: double;
-        border-color: $color-oscuro;
-        border-width: 0.5rem;
-        
-    }
-}
+@import "./media"
