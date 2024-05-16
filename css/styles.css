@@ -53,7 +53,11 @@ main .imagen {
   border-radius: 200px;
   width: 500px;
 }
-main .formulario {
+main .contact {
+  display: flex;
+  justify-content: center;
+}
+main .contact .formulario {
   font-weight: bold;
   width: 500px;
   height: 275px;
@@ -62,26 +66,25 @@ main .formulario {
   border-color: darkgray;
   border-width: 0.5rem;
   padding: 10px;
-  margin-left: 400px;
   text-align: justify;
 }
-main .edad {
+main .contact .edad {
   margin-top: 5%;
 }
-main .edad1 {
+main .contact .edad1 {
   margin-right: 5%;
 }
-main .enviar {
+main .contact .enviar {
   display: flex;
   text-align: center;
   margin: 5%;
   justify-content: space-around;
 }
-main .consulta {
+main .contact .consulta {
   display: flex;
   justify-content: center;
 }
-main .sexo {
+main .contact .sexo {
   text-align: center;
 }
 main .budapasto {
@@ -91,13 +94,12 @@ main .budapasto {
   border-radius: 200px;
 }
 main .box1 {
-  width: 500px;
+  width: 350px;
   height: 250px;
   border-style: dotted;
   border-width: 10px;
   border-color: darkgray;
   overflow: auto;
-  margin: 50px;
   padding: 10px;
   color: black;
 }
@@ -178,11 +180,22 @@ footer .logows {
     display: flexbox;
   }
   .header .titulo {
+    display: flex;
     justify-content: center;
     text-decoration: none;
     color: #fd01dc;
+    font-size: 2rem;
+  }
+  .main .box1 {
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
-    text-align: center;
+    width: 100px;
+    height: 250px;
+    border-style: double;
+    border-color: darkgray;
+    padding: 5px;
+    color: black;
   }
   .main .formulario {
     display: flex;
