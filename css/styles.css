@@ -59,14 +59,16 @@ main .contact {
 }
 main .contact .formulario {
   font-weight: bold;
-  width: 500px;
-  height: 275px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   text-align: center;
   border-style: double;
   border-color: darkgray;
-  border-width: 0.5rem;
+  border-width: 0.9rem;
   padding: 10px;
-  text-align: justify;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 main .contact .edad {
   margin-top: 5%;

@@ -16,16 +16,18 @@ main{
     .contact{
         display: flex;
         justify-content: center;
-        .formulario{
+        .formulario {
             font-weight: bold;
-            width: 500px;
-            height: 275px;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
             text-align: center;
             border-style: double;
             border-color: darkgray;
-            border-width: 0.5rem;
+            border-width: 0.9rem;
             padding: 10px;
-            text-align: justify;
+            margin: 0 auto;
+            box-sizing: border-box;
         }
         .edad{
             margin-top: 5%;
@@ -41,7 +43,8 @@ main{
         }
         .consulta{
             display: flex;
-            justify-content: center;
+            justify-content:center;
+            
         }
         .sexo{
             text-align: center;
