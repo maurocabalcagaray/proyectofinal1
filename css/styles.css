@@ -137,6 +137,9 @@ main .cards .card {
     padding: 10px;
     text-align: justify;
   }
+  main .imput {
+    width: 100%;
+  }
 }
 
 footer {
