@@ -22,9 +22,6 @@ main{
             max-width: 500px;
             height: auto;
             text-align: center;
-            border-style: double;
-            border-color: darkgray;
-            border-width: 0.9rem;
             padding: 10px;
             margin: 0 auto;
             box-sizing: border-box;
@@ -100,9 +97,6 @@ main{
         .formulario{
             font-weight: bold;
             text-align: center;
-            border-style: double;
-            border-color: $color-oscuro;
-            border-width: 0.5rem;
             padding: 10px;
             text-align: justify;
         }
